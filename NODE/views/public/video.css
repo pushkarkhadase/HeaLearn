@@ -1,0 +1,307 @@
+#videoElement,
+#videoElement1 {
+  /*border: 30px solid #ccc;*/
+
+  width: 500px;
+  height: 600px;
+}
+.containers {
+  margin-top: 30px;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.container-1 {
+  margin-right: 60px;
+  background-image: url("Doctor.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-2 {
+  margin-left: 60px;
+  background-image: url("Patient.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button {
+  background: #4f46e5;
+  color: white;
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 17%;
+}
+@media (max-width: 800px) {
+  #videoElement,
+  #videoElement1 {
+    /*border: 30px solid #ccc;*/
+
+    width: 370px;
+    height: 300px;
+  }
+  .containers {
+    margin-top: 350px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    /*margin-right: 60px;*/
+    margin-left: 60px;
+
+    background-image: url("Doctor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-2 {
+    /*margin-left: 60px;*/
+    background-image: url("Patient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+  }
+  .button {
+    background: #4f46e5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 380px) {
+  #videoElement,
+  #videoElement1 {
+    /*border: 30px solid #ccc;*/
+
+    width: 330px;
+    height: 300px;
+  }
+  .containers {
+    margin-top: 70px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    /*margin-right: 60px;*/
+    margin-left: 60px;
+
+    background-image: url("Doctor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-2 {
+    /*margin-left: 60px;*/
+    background-image: url("Patient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+  .button {
+    background: #4f46e5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 420px) {
+  #videoElement,
+  #videoElement1 {
+    /*border: 30px solid #ccc;*/
+
+    width: 330px;
+    height: 300px;
+  }
+  .containers {
+    margin-top: 70px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    /*margin-right: 60px;*/
+    margin-left: 60px;
+
+    background-image: url("Doctor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-2 {
+    /*margin-left: 60px;*/
+    background-image: url("Patient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+  .button {
+    background: #4f46e5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 330px) {
+  #videoElement,
+  #videoElement1 {
+    /*border: 30px solid #ccc;*/
+
+    width: 370px;
+    height: 300px;
+  }
+  .containers {
+    margin-top: 100px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    /*margin-right: 60px;*/
+    margin-left: 60px;
+
+    background-image: url("Doctor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-2 {
+    /*margin-left: 60px;*/
+    background-image: url("Patient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+  .button {
+    background: #4f46e5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 1030px) {
+  #videoElement,
+  #videoElement1 {
+    /*border: 30px solid #ccc;*/
+
+    width: 480px;
+    height: 480px;
+  }
+  .containers {
+    margin-top: 50px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    /*margin-right: 60px;*/
+    margin-left: 60px;
+
+    background-image: url("Doctor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-2 {
+    /*margin-left: 60px;*/
+    background-image: url("Patient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+  .button {
+    background: #4f46e5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 550px) {
+  #videoElement,
+  #videoElement1 {
+    /*border: 30px solid #ccc;*/
+
+    width: 330px;
+    height: 300px;
+  }
+  .containers {
+    margin-top: 70px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 {
+    /*margin-right: 60px;*/
+    margin-left: 60px;
+
+    background-image: url("Doctor.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container-2 {
+    /*margin-left: 60px;*/
+    background-image: url("Patient.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 60px;
+    margin-bottom: 10px;
+  }
+  .button {
+    background: #4f46e5;
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Times New Roman", Times, serif;
+    padding: 8px 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 10px 0;
+  }
+}
