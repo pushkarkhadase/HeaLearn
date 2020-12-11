@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url("pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+ 
+  color: white;
+}
+.container h2{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 2.2rem;
+}
+.container h3{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.input-1{
+margin-bottom: 20px;
+
+}
+.input-2{
+  margin-bottom: 10px;
+}
+.input-1, .input-2 input{
+  margin-top: 5px;
+}
+.container p{
+  margin-bottom: 15px;
+  text-align: right;
+  font-size: 1.4rem;
+  color: white;
+}
+.container label{
+  font-size: 1.3rem;
+}
+.button{
+  width: 23%;
+  padding: 5px 0 5px 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  background-color: blue;
+  cursor:pointer;
+  border-radius: 20px;
+}
+input{
+  padding: 10px 100px;
+  border-radius: 15px;
+}
+@media(max-width:370px){
+  .container label{
+      font-size: 1.3rem;
+      text-align: center;
+  }
+  input{
+      padding: 10px 70px;
+  }
+}
+@media(max-width:285px){
+  .container label{
+      font-size: 1.3rem;
+      text-align: center;
+  }
+  input{
+      padding: 10px 50px;
+  }
+}
