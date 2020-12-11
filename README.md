@@ -20,20 +20,20 @@
 </p>
 
 
-## ✨Introduction✨
+## ✨Introduction:✨
 HeaLearn is a Portal which provides learning and diagnosing features to the Health Workers. In today's Covid-19 situation, it's very tough for the health workers to spend some time apart from diagnosing in Learning. Considering that scenario we have developed a portal in which health workers can learn as well as diagnose the patients via Video call facility by sitting in any corner of the world. It's not over though, we have also provided a tracking service to check whether a patient is at risk of affecting with Covid-19 or not?. This will surely help workers to manage time for learning and diagnosing.
 
-## 🎇Install Dependencies🎇
+## 🎇Install Dependencies:🎇
 1. Download [node.js](https://nodejs.org/en/)
 
-## 🎆How to Run🎆
+## 🎆How to Run:🎆
 1. `git clone`
 2. `cd NODE`
 3. `npm install`
 4. `npm start`
 5. `localhost:3000`
 
-## 👩‍💻Team👨‍💻
+## 👩‍💻Team:👨‍💻
 1. 🥇[Pushkar Khadase](https://github.com/pushkarkhadase)
 2. 🏅[Somesh Lad](https://github.com/SomeshLad)
 3. 🥈[Aniket Singh](https://github.com/aniketsingh98571)
