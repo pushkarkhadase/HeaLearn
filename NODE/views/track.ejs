@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<title>Track</title>
+<link rel="stylesheet" href="track.css">
+</head>
+<body>
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="/homepage">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">HeaLearn</span>
+          </a>
+          <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" href="/learn">Learn</a>
+            <a class="mr-5 hover:text-gray-900" href="/video">Video</a>
+            <a class="mr-5 hover:text-gray-900" href="/track">Track</a>
+            
+          </nav>
+          <a href="../"><button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0" >LOGOUT
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button></a>
+        </div>
+      </header>
+      <div class="container-1">
+          <h2>Check Your Risk</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input id="name2" type="text"  placeholder="Enter Your Name" class="input-1" required ><br>
+           
+            <label for="age">Age:</label><br>
+            <input type="number"  placeholder="Enter Your Age" id="input-7" class="input-2" required ><br>
+            <label for="disease">Lung/Heart Disease History?</label><br>
+            <input type="text"   required placeholder="Type Y/N" id="input-5" class="input-3" required><br>
+            <label for="disease-1">Do You have any of these?</label><br>
+            <label for="disease-1" class="options">A.Diabetes     B.Blood Pressure    C.Both    D.None</label><br>
+            <input type="text"    placeholder="Enter A/B/C/D" id="input-6" class="input-1" required><br>
+            <button type="button" id="btn" class="button" onclick="check2()">Check Risk Level</button>
+        </form>
+        </div>
+        <div class="container-2">
+            <h3 id="message"></h3>
+        </div>
+        <script>
+            function check2(){
+            var history=document.getElementById("input-5")
+            var age1=document.getElementById("input-7")
+            var history2=document.getElementById("input-6")
+            var name3=document.getElementById("name2")
+            if(name3.value===""){
+                document.getElementById("message").innerHTML="Please Fill Out All Details."
+            }
+            else{
+            if((age1.value>=55)&&(history.value==="Y")||(history2.value!="D")){
+                document.getElementById("message").innerHTML="You are at High Risk."
+            }
+            else if((age1.value<=55)&&(history.value==="Y")||(history2.value!="D")){
+                document.getElementById("message").innerHTML="You are at High Risk."
+            }
+            else{
+                document.getElementById("message").innerHTML="You are at Low Risk." 
+            }}
+        }
+        </script>
+</body>
+</html>
